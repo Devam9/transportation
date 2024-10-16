@@ -1,0 +1,146 @@
+
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero {
+    background: url('sdj.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .hero button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .hero button:hover {
+    background-color: #0056b3;
+  }
+  
+  .membership {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .membership h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .plan h3 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+  
+  .plan ul {
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .plan ul li {
+    margin: 10px 0;
+  }
+  
+  .plan p {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+
+  .facilities {
+    padding: 50px 0;
+  }
+  
+  .facilities h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .facility-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .facility {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .facility h3 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+  
+  .testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial h4 {
+    font-weight: bold;
+  }
+ h2{
+    align-content: start;
+ } 
