@@ -1,0 +1,36 @@
+/* src/components/BusRoutes.css */
+.bus-routes-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bus-routes-list {
+    margin-top: 20px;
+  }
+  
+  .route-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .route-card:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f5ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+   
+   
+  }
+  
+  /* Signup Container */
+  .Signup-container {
+    background-color: #ffffff; /* White background for the form */
+    max-width: 400px; /* Maximum width of the form */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background: url('sdj.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  
+  /* Heading Style */
+  h2 {
+    text-align: center; /* Centered heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+  }
+  
+  /* Label Styling */
+  label {
+    margin-bottom: 5px; /* Space below label */
+    color: #555; /* Dark gray color */
+    font-weight: 600; /* Bold text */
+  }
+  
+  /* Input Fields and Select Styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    padding: 12px; /* Padding for inputs */
+    font-size: 14px; /* Font size for inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below inputs */
+    transition: border-color 0.3s; /* Smooth border transition */
+  }
+  
+  /* Focus State for Input Fields */
+  input:focus,
+  select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px; /* Padding for button */
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Message Styling */
+  p {
+    text-align: center; /* Centered text */
+    font-size: 14px; /* Font size for messages */
+  }
+  
+  /* Error Message Styling */
+  p[style="color: red"] {
+    margin-top: -10px; /* Negative margin for positioning */
+    margin-bottom: 20px; /* Space below error message */
+    color: red; /* Red color for errors */
+  }
+  
+  /* Success Message Styling */
+  p[style="color: green"] {
+    margin-bottom: 20px; /* Space below success message */
+    color: green; /* Green color for success */
+  }
+
+  
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .Signup-container {
+      padding: 20px; /* Reduced padding for smaller screens */
+      margin: 10px; /* Margin for mobile */
+    }
+  
+    h2 {
+      font-size: 24px; /* Smaller heading on mobile */
+    }
+  }
+  

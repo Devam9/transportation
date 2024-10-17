@@ -1,0 +1,34 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  
+ 
+  
+  .content {
+    margin-left: 250px;
+    padding: 0px;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  h1, h2 {
+    color: #ffffff;
+  }
+  .align{
+    align-items:end;
+  }
+  .container1{
+    
+    align-items: center;
+    padding: 50px;
+    width: 280px;
+    height: 350px;
+    background-image: url('https://www.google.com/imgres?q=sdj%20international%20college%20palsana&imgurl=https%3A%2F%2Fwww.yayskool.com%2Fimages%2Fschool%2Fs-d-j-international-school-surat-319710692.jpg&imgrefurl=https%3A%2F%2Fwww.yayskool.com%2Fschool%2Fs-d-j-international-school-surat-561110692&docid=DjdFOBWm_lCh-M&tbnid=zFddjfVG0Zi0BM&vet=12ahUKEwiOwqujn5CJAxXWfvUHHUNnHdwQM3oECDwQAA..i&w=1742&h=965&hcb=2&ved=2ahUKEwiOwqujn5CJAxXWfvUHHUNnHdwQM3oECDwQAA.jpg');
+    background-size: cover;
+    color: #ffffff;
+    border: 1px;
+  }
+  
